@@ -1,0 +1,92 @@
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(image/bg.PNG);
+}
+.container {
+  background-color: white;
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  border-radius: 40px;
+}
+.container img {
+  width: 400px;
+  height: 250px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.container > h1 {
+  font-family: sans-serif;
+  margin-top: 40px;
+  color: rgb(40, 18, 119);
+}
+
+.container > p {
+  color: grey;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container .box-1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: rgba(220, 224, 243, 0.616);
+  margin-bottom: 20px;
+}
+
+.container .box-1 p:nth-last-of-type(1) {
+  color: gray;
+  font-family: sans-serif;
+  position: relative;
+  top: 20px;
+  right: 100px;
+  margin-top: -7px;
+}
+
+.container .box-1 p:nth-last-of-type(2) {
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: black;
+  margin-top: -10px;
+}
+
+.container input {
+  padding: 10px 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: white;
+  margin: auto;
+  display: block;
+  box-shadow: 2px 9.5px 35px 4px rgba(42, 39, 255, 0.342);
+  transition: 0.3s;
+}
+
+.container input:hover {
+  box-shadow: none;
+  background-color: rgb(74, 56, 235);
+}
+.container .box-1 a {
+  position: relative;
+  right: 35px;
+  font-weight: bold;
+  font-size: 17px;
+  color: blue;
+}
+
+.container #cancel {
+  font-family: sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  color: grey;
+  margin-top: 20px;
+}
